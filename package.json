@@ -1,0 +1,24 @@
+{
+  "name": "rijal-rest-api",
+  "version": "3.0.0",
+  "description": "REST API publik untuk bot WhatsApp",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "test": "node tests/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "btch-downloader": "^6.0.25",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "ffmpeg-static": "^5.2.0",
+    "helmet": "^7.1.0",
+    "sharp": "^0.33.3",
+    "yt-search": "^2.13.1"
+  }
+}
